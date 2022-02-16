@@ -1,0 +1,70 @@
+.btn {
+    font-weight: 600;
+    background: var(--default-color);
+    color: var(--color-white);
+    min-width: 100px;
+    width: max-content;
+    padding: .8rem 1rem;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.btn-float {
+
+    background: var(--default-color);
+    color: var(--color-white);
+    width: max-content;
+    padding: .8rem 1rem;
+    border-radius: 50% 50%;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+
+.btn-warning {
+    background-color: var(--warning-color);
+    color: var(--color-white);
+}
+
+.btn-warning:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.btn-error {
+    background-color: var(--error-color);
+}
+
+.btn-error:hover {
+    transform: scale(1.1);
+    transition: all .2s ease;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+}
+
+.btn-link {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+
+.btn-link a {
+    color: var(--color-white);
+}
