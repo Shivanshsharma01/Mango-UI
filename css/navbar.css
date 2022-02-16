@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    min-height: 100vh;
+    height: max-content;
+    margin: auto;
+}
+
+nav{
+    padding: 2.5rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-hero{
+    font-size: 1.2rem;
+    font-weight: 900;
+
+}
+
+.nav-hero a{
+    color : var(--default-color);
+    text-decoration: none;
+}
+
+
+.nav-pills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-pills li{
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.nav-pills a{
+    font-weight: 800;
+    color: var(--default-color) ;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all .3s ease;
+}
+
+.nav-pills a:hover{
+    transform: scale(1.8);
+}
