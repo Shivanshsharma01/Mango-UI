@@ -1,7 +1,7 @@
 .footer{
     background-color: var(--color-yellow);
     text-align: center;
-    color: var(--defaul-color);
+    color: var(--default-color);
     padding: 2rem 1rem;
     font-weight: 800;
 }
