@@ -22,18 +22,18 @@ body{
 }
 
 nav{
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--color-yellow);
 }
-
 
 .nav-hero{
     font-size: 1.2rem;
     font-weight: 900;
-
+    margin-left: 10rem;
 }
 
 .nav-hero a{
@@ -45,6 +45,7 @@ nav{
 .nav-pills{
     display: flex;
     justify-content: space-evenly;
+    margin-right: 10rem;
 }
 
 .nav-pills li{
