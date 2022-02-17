@@ -7,17 +7,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-:root{
-    --primary-color : #2563eb ;
-    --default-color : #18181b;
-    --error-color : #dc2626;
-    --success-color :#4ade80;
-    --warning-color : #f97316;
+:root {
+    --primary-color: #2563eb;
+    --default-color: #18181b;
+    --error-color: #dc2626;
+    --success-color: #4ade80;
+    --warning-color: #f97316;
     --color-white: #FFFFFF;
 
-    --light-yellow:#fefce8;
-    --active-border: #eab308 ;
-    --divider-color:#b59000;
-    --list-hover:#fde047;
+    --light-yellow: #fefce8;
+    --active-border: #eab308;
+    --divider-color: #b59000;
+    --list-hover: #fde047;
     --color-yellow: #ffff00;
+
+    --bold-regular: 800;
 }
