@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet" href="badge.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/fontawesomepro.js"></script>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
 
-    <title>Mango UI</title>
+    <title>Badge|Mango UI</title>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-hero">
+    <header>
+        <nav>
+            <div class="nav-hero">
 
-            <a href="#"> Mango UI <i class="fa-solid fa-mango"></i> </a>
-        </div>
+                <a href="#"> Mango UI <i class="fa-solid fa-mango"></i> </a>
+            </div>
 
-        <ul class="nav-pills">
-            <li><a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a></li>
-            <li><a href="https://github.com/Shivanshsharma01/Mango-UI">Github <i class="fa-brands fa-github"></i></a>
-            </li>
+            <ul class="nav-pills">
+                <li><a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="https://github.com/Shivanshsharma01/Mango-UI">Github <i
+                            class="fa-brands fa-github"></i></a>
+                </li>
 
-        </ul>
-    </nav>
+            </ul>
+        </nav>
+    </header>
+
+
     <div class="container">
 
 
-        <div class="whole-content">
-            <div class="sidebar">
+        <main class="whole-content">
+            <section class="sidebar">
 
                 <div>
                     <div class="list-heading">
@@ -58,12 +63,12 @@
                             </a>
                         </li>
                         <li>
-                            <a class="active" href="#">
+                            <a href="/Components/Avatar/avatar.html">
                                 Avatar
                             </a>
                         </li>
                         <li>
-                            <a href="/Components/Badge/badge.html">
+                            <a class="active" href="#">
                                 Badge
                             </a>
                         </li>
@@ -104,44 +109,66 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="main-content">
+            </section>
+
+            <section class="main-content">
                 <div class="content-heading">
-                    Avatar
+                    Badge
                 </div>
                 <div class="content-subheading">
-                    Avatars are used to show profile images in headers or profile information sections. They can be in
-                    multiple sizes.
+                    Badges are usually seen in social media apps to indicate the status of whether a person is online or
+                    offline. They are also used to indicate number of unread notifications. There are multiple variants
+                    of these that come with different colors and
                 </div>
 
                 <div class="divider"></div>
 
 
                 <div class="content-head">
-                    Round Avatar with Image
+                    Badge on Avatar
                 </div>
 
                 <div class="content-subheading">
-                    Use class avatar followed by size to create circular alert with image.
+                    Badges on avatars can be used to indicate the status of the person — whether he / she is online.
                 </div>
 
 
                 <div class="example-div ">
-                    <img class="avatar sm"
-                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-1">
+                    <div class="badge">
+                        <img class="badge-avatar"
+                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                            alt="avatar-1">
 
-                    <img class="avatar md"
-                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-2">
+                        <div class="online"></div>
+                    </div>
 
-                    <img class="avatar lg"
-                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-3">
+                    <div class="badge">
+                        <img class="badge-avatar"
+                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                            alt="avatar-2">
+
+                        <div class="offline"></div>
+                    </div>
+
+                    <div class="badge">
+                        <img class="badge-avatar"
+                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                            alt="avatar-3">
+
+                        <div class="away"></div>
+                    </div>
+
+                    <div class="badge">
+                        <img class="badge-avatar"
+                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                            alt="avatar-4">
+
+                        <div class="busy"></div>
+                    </div>
                 </div>
 
-                <iframe src="https://carbon.now.sh/embed/6FK6qSd8UqgrhBIBxvEV"
-                    style="width: 50rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
+                <iframe src="https://carbon.now.sh/embed/r3KFW6OlzU4wDbplC6zN"
+                    style="width: 50rem;margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
@@ -149,34 +176,38 @@
 
 
                 <div class="content-head">
-                    Square Avatar with Image
+                    Badge on Icon
                 </div>
 
                 <div class="content-subheading">
-                    Use class alert followed by square and size respectively to create square avatar with image.
+                    Badge on icon can be used to show number of notifications, unread messages and so on. It usually has
+                    a icon with a number representing count on that notification.
                 </div>
 
                 <div class="example-div">
-                    <img class="avatar square sm"
-                        src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-1">
 
-                    <img class="avatar square md"
-                        src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-2">
+                    <div class="badge avatar ">
+                        <i class="fa-solid fa-message"></i>
+                        <div class="badge-counter online ">12</div>
+                    </div>
 
-                    <img class="avatar square lg"
-                        src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="avatar-3">
+                    <div class="badge avatar ">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="badge-counter ">10</div>
+                    </div>
+
+                    <div class="badge">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="badge-counter busy">15</div>
+                    </div>
                 </div>
-
-                <iframe src="https://carbon.now.sh/embed/WXrGSUYBLuT63kOuotNe"
-                    style="width: 50rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
+                <iframe src="https://carbon.now.sh/embed/lhQWybSLbhMvzmKgjo9y"
+                    style="width: 50rem; margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                </iframe></P>
-
-            </div>
-        </div>
+                </iframe>
+            </section>
+        </main>
+    </div>
     </div>
     <footer class="footer">
 
