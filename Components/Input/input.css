@@ -1,0 +1,46 @@
+.input-group {
+    color: var(--default-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin: 10px 1.5rem;
+    width: 80%;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.input-simple {
+    border: 1px solid #999;
+}
+
+input {
+    background: var(--color-white);
+    padding: 10px 11px;
+    float: left;
+    font-size: 13px;
+    margin: 10px 0;
+    width: 100%;
+    transition: .3s all ease;
+    outline: none;
+    border-radius: 2px;
+}
+
+.error-input {
+    border: 3px solid var(--warning-color);
+}
+
+.success-input {
+    border: 3px solid var(--success-color);
+}
+
+.error-message {
+    color: var(--warning-color);
+}
+
+.success-message {
+    color: var(--success-color);
+}
