@@ -72,3 +72,24 @@
     height: 1px;
     background-color: var(--divider-color);
 }
+
+.home-container{
+    margin: auto;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-heading{
+    font-size: 4rem;
+    font-weight: 900;
+    margin:  2rem;  
+    text-align: center;
+}
+
+.home-subheading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

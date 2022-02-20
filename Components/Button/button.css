@@ -59,6 +59,10 @@
     background-color: var(--success-color);
 }
 
+.btn-success a {
+    color: var(--default-color);
+}
+
 .btn-link {
     background-color: var(--primary-color);
     color: var(--color-white);
