@@ -4,10 +4,6 @@
     color: var(--default-color);
     padding: 2rem 1rem;
     font-weight: var(--bold-regular);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .footer-list {
