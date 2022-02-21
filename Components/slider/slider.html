@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/fontawesomepro.js"></script>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
 
-    <title>Image|Mango UI</title>
+    <title>Slider|Mango UI</title>
 </head>
 
 <body>
@@ -18,14 +18,15 @@
         <nav>
             <div class="nav-hero">
 
-                <a href="#"> Mango UI <i class="fa-solid fa-mango"></i> </a>
+                <a href="/../index.html"> Mango UI <i class="fa-solid fa-mango"></i> </a>
             </div>
 
             <ul class="nav-pills">
                 <li><a href="/../index.html">Home <i class="fa-solid fa-house-chimney"></i></a></li>
                 <li><a href="https://github.com/Shivanshsharma01/Mango-UI">Github <i
-                    class="fa-brands fa-github"></i></a>
+                            class="fa-brands fa-github"></i></a>
                 </li>
+
             </ul>
         </nav>
     </header>
@@ -36,7 +37,6 @@
 
         <main class="whole-content">
             <section class="sidebar">
-
                 <div>
                     <div class="list-heading">
                         <a href="/Components/Introduction/introduction.html">
@@ -53,7 +53,7 @@
                 </div>
                 <div>
                     <div class="list-heading">
-                        <a href="/../index.html">Components</a>
+                        <a href="#">Components</a>
                     </div>
                     <ul class="list-subheading">
                         <li>
@@ -82,7 +82,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="active" href="#">
+                            <a href="/Components/Image/image.html">
                                 Image
                             </a>
                         </li>
@@ -92,7 +92,7 @@
                             </a>
                         </li>
                         <li>
-                            <a  href="/Components/Navbar/nav.html">
+                            <a href="/Components/Navbar/nav.html">
                                 Navbar
                             </a>
                         </li>
@@ -107,85 +107,41 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/Components/slider/slider.html">
-                                Slider
+                            <a class="active" href="#">
+                               Slider
                             </a>
                         </li>
                     </ul>
                 </div>
             </section>
 
-            <section class="main-content">
-                <div class="content-heading">
-                    Images
-                </div>
-                <div class="content-subheading">
-                    Images are inseprable part of a website. Without them, websites would become one large collection of
-                    text.
-                </div>
+            <section class=" main-content">
+                                <div class="content-heading">
+                                    SLIDER
+                                </div>
+                                <div class="content-subheading">
+                                    Slider's are another way to get Users input on a property which can take up a range of values.
+                                </div>
 
-                <div class="divider"></div>
-                <div class="content-head">
-                    Round Images
-                </div>
+                                <div class="example-div ">
 
-                <div class="content-subheading">
-                    Use class <strong>.round-img</strong> for round images.
-                </div>
+                                    <input type="range" min="0" max="10000" step="2500" list="tickmarks"
+                                        class="slider" />
+                                    <datalist id="tickmarks" class="input-datalist">
+                                        <option value="0" class="txt-semibold" label=""></option>
+                                        <option value="2500" class="hide"></option>
+                                        <option value="5000" class="txt-semibold" label=""></option>
+                                        <option value="7500" class="hide"></option>
+                                        <option value="10000" class="txt-semibold" label=""></option>
+                                    </datalist>
 
+                                </div>
 
-                <div class="example-div ">
-                    <img src="https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="image" class="round-img" />
-                </div>
+                                <iframe src="https://carbon.now.sh/embed/HJ5SSLUDedXbI3AwGvgX"
+                                    style="width: 50rem;margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
 
-                <iframe src="https://carbon.now.sh/embed/N1tWNNa7UAJr86DOdG5r"
-                    style="width: 50rem;margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-                <div class="divider"></div>
-
-                <div class="content-head">
-                    Square Image
-                </div>
-
-                <div class="content-subheading">
-                    Use class <strong>.square-img</strong> for square images.
-                </div>
-
-
-                <div class="example-div ">
-                    <img src="https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                        alt="image" class="square-img" />
-                </div>
-
-                <iframe src="https://carbon.now.sh/embed/LRSY045Js8pNASJ4GRob"
-                    style="width: 50rem;margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-                <div class="divider"></div>
-
-
-                <div class="content-head">
-                    Responsive Images
-                </div>
-
-                <div class="content-subheading">
-                    Use class <strong>.responsive-img</strong> for responsive images.
-                </div>
-
-                <div class="example-div">
-                    <div>
-                        <img src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=456&q=80"
-                            alt="responsive-image" class="responsive-img" />
-                    </div>
-                </div>
-                <iframe src="https://carbon.now.sh/embed/AadoS8ERubXSp9OAbYla"
-                    style="width: 50rem;margin-bottom: 2rem; min-height: 19rem; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
             </section>
         </main>
     </div>
