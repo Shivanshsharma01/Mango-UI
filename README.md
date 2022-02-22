@@ -109,20 +109,6 @@ Types:
 
 <hr />
 
-### Grid
-
-Grids allow you to layout your content on your website in a structured manner,
-<br />
-thus allowing flexibility in visual representation across a wide range of sizes.
-<br />
-You can check out the various types of grids [here](https://mango-ui.netlify.app/components/grid/grid)
-
-Types:
-* 2 column grid
-* 3 column grid
-
-<hr />
-
 ### Image
 
 Images are inseprable part of a website.  
@@ -153,7 +139,7 @@ Types:
 
 ### Grid
 
-Grids are helpful in creating fluid layouts that fit across multiple devices with difference resolutions. Chunks provides two column and three column layouts.
+Grids are helpful in creating fluid layouts that fit across multiple devices with difference resolutions. Here provides two column and three column layouts.
 <br />
 You can check out the various types of list [here](https://mango-ui.netlify.app/components/grid/grid)
 
@@ -171,8 +157,6 @@ You can check out the ready to go navigation [here]("https://mango-ui.netlify.ap
 
 Types:
 * Simple navigation
-
-<hr />
 
 <hr />
 
