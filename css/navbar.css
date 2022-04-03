@@ -67,3 +67,39 @@ nav {
 .nav-pills a:hover {
     transform: scale(1.8);
 }
+
+@media screen and (max-width : 1200px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width : 800px){
+
+    nav{
+        padding: 2.5rem 1rem;
+    }
+
+    .nav-hero{
+        font-size: 1.1rem;
+    }
+
+    .nav-pills li{
+        margin: 0 .5rem;
+    }
+
+    .nav-pills li a{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        width: 100%;
+    }
+    
+    nav{
+        padding: 1rem;
+    }
+}
