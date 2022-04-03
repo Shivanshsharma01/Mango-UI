@@ -73,7 +73,7 @@
     background-color: var(--divider-color);
 }
 
-.home-container{
+.home-container {
     margin: auto;
     width: 70%;
     padding: 1rem;
@@ -82,15 +82,37 @@
     min-height: 75vh;
 }
 
-.home-heading{
+.home-heading {
     font-size: 4rem;
     font-weight: 900;
-    margin:  2rem;  
+    margin: 2rem;
     text-align: center;
 }
 
-.home-subheading{
+.home-subheading {
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
 }
+
+@media screen and (max-width : 800px) {
+    .example-div {
+        width: 100%;
+        height: auto;
+    }
+    .doc-content{
+        margin: auto;
+        width: 90%;
+    }
+    .content-heading{
+        font-size: 1.6rem;
+    }
+
+    .content-subheading{
+        font-size: .9rem;
+        line-height: 20px;
+    }
+
+    .content-head{
+        font-size: 1.3rem;
+    }

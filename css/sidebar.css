@@ -50,3 +50,20 @@
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width : 800px){
+    .sidebar{
+        position: fixed;
+        top : 0;
+        bottom: 0;
+        left: 0;
+        background: white;
+        width: 280px;
+        scroll-behavior: smooth;
+        overflow: auto;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: none;
+    }
+
+}
